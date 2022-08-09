@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
 * print_bigS - Non printable characters
 * @l: va_list arguments

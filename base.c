@@ -103,6 +103,6 @@ int print_hex_big(va_list l, flags_t *f)
 	str = convert(num, 16, 1);
 	if (f->hash == 1 && str[0] != '0')
 		count += _puts("0X");
-	count += _puts(str);
+		count += _puts(str);
 	return (count);
 }
